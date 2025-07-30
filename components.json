@@ -1,0 +1,13 @@
+{
+  "components": [
+    "AboutSection",
+    "ContactSection",
+    "ExperienceSection",
+    "HeroSection",
+    "Navbar",
+    "ProjectCard",
+    "ProjectsSection",
+    "SkillsSection",
+    "ThemeToggle"
+  ]
+}

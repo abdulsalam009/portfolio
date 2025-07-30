@@ -1,8 +1,4 @@
-node_modules
-.next
-out
-.env
-.DS_Store
+gitignore
 # Dependencies
 /node_modules
 /.pnp

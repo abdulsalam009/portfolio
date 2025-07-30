@@ -38,12 +38,3 @@ export function ThemeToggle() {
     </DropdownMenu>
   )
 }
-
-export function ThemeProvider({
-  children,
-  ...props
-}: {
-  children: React.ReactNode
-}) {
-  return <NextThemesProvider {...props}>{children}</NextThemesProvider>
-}

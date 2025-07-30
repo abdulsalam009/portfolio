@@ -1,13 +1,32 @@
-import React from "react";
+import { ThemeProvider } from 'next-themes'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import '../globals.css'
 
-export default function MainLayout({ children }: { children: React.ReactNode }) {
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'Full Stack Developer Portfolio',
+  description: 'Professional portfolio showcasing my skills and projects',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
-      <body>
-        {/* ...existing code... */}
-        {children}
-        {/* ...existing code... */}
+    <html lang="en" suppressHydrationWarning>
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
-  );
+  )
 }

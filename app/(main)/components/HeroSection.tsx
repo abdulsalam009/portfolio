@@ -17,7 +17,7 @@ export default function HeroSection() {
               transition={{ duration: 0.5 }}
             >
               <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                Hi, I'm <span className="text-primary">John Doe</span>
+                Hi, I'm <span className="text-primary">Abdul Salam</span>
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-muted-foreground">
                 Full Stack Java Developer
@@ -32,7 +32,7 @@ export default function HeroSection() {
                   </a>
                 </Button>
                 <Button variant="outline" asChild>
-                  <a href="/resume.pdf" download>
+                  <a href="/AbdulSalamResume .pdf (1).pdf" download>
                     Download CV <Download className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
@@ -47,10 +47,12 @@ export default function HeroSection() {
               className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary"
             >
               <Image
-                src="/images/avatar.jpg"
+                src="/images/12.jpg"
                 alt="Profile Picture"
                 fill
-                className="object-cover"
+                className="object-cover rounded-full"
+                style={{ objectFit: 'cover', objectPosition: 'center 25%' }}
+                sizes="(max-width: 768px) 100vw, 320px"
                 priority
               />
             </motion.div>

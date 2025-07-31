@@ -5,20 +5,11 @@ import { useInView } from 'react-intersection-observer'
 import { Briefcase } from 'lucide-react'
 
 const experiences = [
+  
   {
-    company: 'Tech Solutions Inc.',
-    position: 'Senior Java Developer',
-    duration: '2021 - Present',
-    description: [
-      'Led a team of 5 developers to build a microservices-based SaaS platform',
-      'Implemented CI/CD pipelines reducing deployment time by 60%',
-      'Optimized database queries improving API response times by 40%',
-    ],
-  },
-  {
-    company: 'Digital Innovations LLC',
+    company: 'IHUB Innovations',
     position: 'Java Developer',
-    duration: '2018 - 2021',
+    duration: '2024',
     description: [
       'Developed RESTful APIs for enterprise applications using Spring Boot',
       'Integrated third-party payment and authentication services',
@@ -26,9 +17,9 @@ const experiences = [
     ],
   },
   {
-    company: 'StartUp Ventures',
+    company: '',
     position: 'Junior Java Developer',
-    duration: '2016 - 2018',
+    duration: '2024',
     description: [
       'Built core features for the company flagship product',
       'Participated in agile development processes and sprint planning',

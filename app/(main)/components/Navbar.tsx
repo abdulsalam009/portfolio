@@ -38,17 +38,17 @@ export default function Navbar() {
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <nav className="flex items-center space-x-1">
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://github.com/yourusername" target="_blank">
+              <Link href="https://github.com/abdulsalam009" target="_blank">
                 <Github className="h-4 w-4" />
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://linkedin.com/in/yourusername" target="_blank">
+              <Link href="https://www.linkedin.com/in/salam-abdul-728866245/" target="_blank">
                 <Linkedin className="h-4 w-4" />
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link href="mailto:your.email@example.com">
+              <Link href="mailto:abdulsalam798170@gmail.com">
                 <Mail className="h-4 w-4" />
               </Link>
             </Button>

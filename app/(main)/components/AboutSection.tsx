@@ -32,7 +32,7 @@ export default function AboutSection() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Who I Am</h3>
               <p className="mb-4">
-                I'm a passionate Full Stack Developer with 5+ years of experience specializing in Java-based web applications. 
+                I'm a passionate Full Stack Developer,I'm specializing in Java-based web applications. 
                 I love solving complex problems and building efficient, scalable solutions.
               </p>
               <p className="mb-4">

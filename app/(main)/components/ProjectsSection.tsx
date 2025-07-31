@@ -7,19 +7,19 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform with product management, cart functionality, and payment processing.',
-    technologies: ['Java', 'Spring Boot', 'React', 'PostgreSQL'],
-    image: '/images/project1.jpg',
-    githubUrl: 'https://github.com/yourusername/ecommerce-platform',
-    liveUrl: 'https://ecommerce-demo.example.com',
+    title: 'Employ Management System',
+    description: 'Employees are the backbone of any company therefore their contribution plays a major role in deciding the success of an organization This software allows the administrator to edit employees, add new employees, transfer/promote/terminate employees. You can check to see if there are duplicate positions/employees in the database ',
+    technologies: ['Java', 'Spring Boot', 'React', 'MySQL'],
+    image: '/images/employ.jpg',
+    githubUrl: 'https://github.com/abdulsalam009/java-project',
+    liveUrl: '',
   },
   {
     title: 'Task Management System',
     description: 'A collaborative task management application with real-time updates and team features.',
     technologies: ['Java', 'Spring Boot', 'WebSocket', 'MongoDB'],
-    image: '/images/project2.jpg',
-    githubUrl: 'https://github.com/yourusername/task-management',
+    image: '/images/',
+    githubUrl: 'https://github.com/abdulsalam009/java-project',
     liveUrl: 'https://tasks.example.com',
   },
   {

@@ -9,18 +9,17 @@ const skills = [
     items: [
       { name: 'Java', level: 95 },
       { name: 'Spring Boot', level: 90 },
-      { name: 'Hibernate/JPA', level: 85 },
-      { name: 'REST APIs', level: 90 },
-      { name: 'Microservices', level: 80 },
+      { name: 'REST APIs', level: 80 },
+      { name: 'Servlets', level: 80 },
     ],
   },
   {
     category: 'Frontend',
     items: [
       { name: 'React', level: 75 },
-      { name: 'TypeScript', level: 80 },
+      { name: 'JavaScript', level: 80 },
       { name: 'Next.js', level: 70 },
-      { name: 'Tailwind CSS', level: 85 },
+      { name: 'HTML5', level: 85 },
     ],
   },
   {
@@ -36,7 +35,7 @@ const skills = [
   {
     category: 'Databases',
     items: [
-      { name: 'PostgreSQL', level: 85 },
+      { name: 'OracleQL', level: 85 },
       { name: 'MySQL', level: 80 },
       { name: 'MongoDB', level: 70 },
     ],

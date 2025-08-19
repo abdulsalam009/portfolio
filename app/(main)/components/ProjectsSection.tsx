@@ -15,12 +15,13 @@ const projects = [
     liveUrl: '',
   },
   {
-    title: 'Task Management System',
-    description: 'A collaborative task management application with real-time updates and team features.',
+    title: 'Exam Interface',
+    description: ' Exam App project is built with a modern full-stack architecture. The frontend is developed using React with TypeScript as the primary language, complemented by CSS for styling and some HTML structure. It follows a component-based design created via Create React App, ensuring a responsive and interactive user interface for taking exams.',
+
     technologies: ['Java', 'Spring Boot', 'WebSocket', 'MongoDB'],
-    image: '/images/',
-    githubUrl: 'https://github.com/abdulsalam009/java-project',
-    liveUrl: 'https://tasks.example.com',
+    image: '/images/image3.png',
+    githubUrl: 'https://github.com/abdulsalam009/portfolio',
+    liveUrl: 'https://exam-app-frontend-beta.vercel.app/',
   },
   {
     title: 'API Gateway Service',
